@@ -1,5 +1,5 @@
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about2.jpg";
 import { FiAward } from "react-icons/fi";
 
 export const About = () => {
@@ -17,20 +17,24 @@ export const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FiAward />
-              <h5>Experience</h5>
-              <small>3+ Years Work</small>
+              <h5>Profession</h5>
+              <small>FullStack Web Developer </small>
             </article>
 
             <article className="about__card">
               <FiAward />
-              <h5>Client</h5>
-              <small>200+ Worldwide</small>
+              <h5>Specialized In</h5>
+              <small>MERN Stack </small>
+              <br />
+              <small>UI/UX </small>
             </article>
 
             <article className="about__card">
               <FiAward />
-              <h5>Projects</h5>
-              <small>10+ projects</small>
+              <h5>Hobbies</h5>
+              <small>Graphic Designing </small>
+              <br />
+              <small>Photography </small>
             </article>
           </div>
           <p>
