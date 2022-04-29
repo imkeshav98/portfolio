@@ -13,6 +13,7 @@ export const Portfolio = () => {
               <img src={e.image} alt="img" />
             </div>
             <h3>{e.title}</h3>
+            <small>{e.description}</small>
             <div className="portfolio__item-cta">
               <a
                 href={e.github}

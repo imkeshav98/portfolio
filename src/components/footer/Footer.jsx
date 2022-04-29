@@ -34,7 +34,9 @@ export default function Footer() {
           </a>
         </div>
       </section>
-      <div className="spacer"></div>
+      <div className="spacer">
+        <small>Website made using React.js ❤️</small>
+      </div>
     </footer>
   );
 }

@@ -1,4 +1,4 @@
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/keshav-chaudhary-resume.pdf";
 
 export const CTA = () => {
   return (
