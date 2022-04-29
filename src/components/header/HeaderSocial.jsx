@@ -6,7 +6,7 @@ export const HeaderSocial = () => {
     <div>
       <div className="header__socials">
         <a
-          href="https://linkedin.com/keshav-k-chaudhary/"
+          href="https://www.linkedin.com/in/keshav-k-chaudhary/"
           target="_blank"
           rel="noreferrer"
         >
