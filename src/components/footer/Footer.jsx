@@ -2,6 +2,7 @@ import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaInstagramSquare } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
 
 import React from "react";
 
@@ -31,6 +32,13 @@ export default function Footer() {
             rel="noreferrer"
           >
             <AiFillTwitterCircle />
+          </a>
+          <a
+            href="https://github.com/imkeshav98"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub />
           </a>
         </div>
       </section>
