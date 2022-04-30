@@ -36,6 +36,7 @@
     backface-visibility: hidden;
     background-color: var(--color-bg-variant);
     padding: 1em;
+    overflow-y: scroll;
 }
 .portfolio__item .card {
     position: relative;
