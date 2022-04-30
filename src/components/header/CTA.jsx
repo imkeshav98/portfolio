@@ -1,10 +1,8 @@
-import CV from "../../assets/keshav-chaudhary-resume.pdf";
-
 export const CTA = () => {
   return (
     <div className="cta">
       <a
-        href={CV}
+        href="https://drive.google.com/file/d/19uncHt6lwES_qaHwQxBC9dENrSzQLYMJ/view?usp=sharing"
         download
         without
         rel="noopener noreferrer"
