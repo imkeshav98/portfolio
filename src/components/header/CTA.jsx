@@ -6,10 +6,10 @@ export const CTA = () => {
       <a
         href={CV}
         download
-        className="btn"
         without
         rel="noopener noreferrer"
         target="_blank"
+        className="btn"
       >
         Download Resume
       </a>
