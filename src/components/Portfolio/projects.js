@@ -10,6 +10,7 @@ export let projects = [
     description: "E-Commerce website for beauty products",
     github: "https://github.com/imkeshav98/dermClone",
     demo: "https://dermclone.netlify.app/",
+    techstack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
     id: 2,
@@ -18,6 +19,14 @@ export let projects = [
     description: "E-Commerce website for womens products",
     github: "https://github.com/imkeshav98/Meesho-Clone",
     demo: "https://meesho-clone-masaiweb15.netlify.app/index.html",
+    techstack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Node.js",
+      "Express.js",
+    ],
   },
   {
     id: 3,
@@ -26,5 +35,6 @@ export let projects = [
     description: "Weather website using Openweather API",
     github: "https://github.com/imkeshav98/weather/tree/main",
     demo: "https://weatheriify.netlify.app/",
+    techstack: ["HTML", "CSS", "JavaScript"],
   },
 ];

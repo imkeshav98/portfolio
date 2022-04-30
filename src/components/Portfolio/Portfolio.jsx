@@ -8,12 +8,22 @@ export const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {projects.map((e) => (
-          <article className="portfolio__item" key={e.id}>
-            <div className="portfolio__item-image">
-              <img src={e.image} alt="img" />
+          <div className="portfolio__item" key={e.id}>
+            <div className="card">
+              <div className="portfolio__item-top">
+                <img src={e.image} alt="img" />
+                <h3 className="card-title">{e.title}</h3>
+                <small>{e.description}</small>
+              </div>
+              <div className="portfolio__item-back">
+                <h5>Tech Stack Used</h5>
+                <div className="tech-stack">
+                  {e.techstack.map((e) => (
+                    <span>{e}</span>
+                  ))}
+                </div>
+              </div>
             </div>
-            <h3>{e.title}</h3>
-            <small>{e.description}</small>
             <div className="portfolio__item-cta">
               <a
                 href={e.github}
@@ -32,7 +42,7 @@ export const Portfolio = () => {
                 Live Demo
               </a>
             </div>
-          </article>
+          </div>
         ))}
       </div>
     </section>
