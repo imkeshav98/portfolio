@@ -46,7 +46,7 @@ color: var(--color-light);
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
+    height: 28.5rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -55,7 +55,8 @@ color: var(--color-light);
     padding: 1.5rem 0rem 0rem 0rem;
 }
 .me img {
-    opacity: 0.92;
+    margin-top: -0.5rem;
+    opacity: 0.9;
   }
 
 /* ==== Scroll Down ==== */

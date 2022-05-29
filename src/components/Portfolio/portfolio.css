@@ -24,28 +24,28 @@
     border-radius: 1rem;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
 }
 .portfolio__item-back {
     position: absolute;
-    height: 100%;
+    height: 101%;
     width: 100%;
     top: 0;
     border-radius: 1rem;
-    transform: rotateY(180deg);
+    opacity: 0;
     backface-visibility: hidden;
-    background-color: var(--color-bg-variant);
+    background-color: #66b66f;
     padding: 1em;
     overflow-y: scroll;
 }
 .portfolio__item .card {
     position: relative;
+    height: 100%;
+    margin-bottom: 0.6rem;
     transform-style: preserve-3d;
-    transition: all 1s ease;
-    transform: perspective(500px)
 }
-.portfolio__item .card:hover {
-    transform: rotateY(180deg);
+.portfolio__item .card:hover .portfolio__item-back{
+    opacity: 1;
+    transition: all 0.4s ease;
 }
 
 .portfolio__item-top img{
@@ -77,13 +77,13 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    font-size: 0.6em;
+    font-size: 0.7em;
     justify-content: center;
 }
 .tech-stack span {
     background-color: rgba(240, 248, 255, 0.137);
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
